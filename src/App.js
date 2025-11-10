@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from "react";
 import { Camera, Upload, AlertCircle, CheckCircle, XCircle, Loader2, Info, BarChart3, Trash2 } from 'lucide-react';
 
 const FoodSpoilageDetector = () => {
@@ -352,3 +352,4 @@ Analyze: color, texture, visible defects, freshness indicators. Be specific abou
 };
 
 export default FoodSpoilageDetector;
+
